@@ -1,0 +1,30 @@
+header{
+ background-color: $my-white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 0;
+    z-index: 999;
+    
+    .header__main{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        @extend %my-display;
+        font-family: $my-font;
+        .main--left{
+            font-size: 15px;
+        }
+        .main--logo{
+             font-size: 20px;
+        }
+        .main--righ{
+            font-size: 12px;
+            & a{
+                text-decoration: none;
+                color: $my-color;
+            }
+        }
+    }
+}

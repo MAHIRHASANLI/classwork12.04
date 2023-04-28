@@ -1,0 +1,23 @@
+/* body{
+    background-color: rgba(0, 0, 255, 0.815);
+} */
+body>div{
+    width: 10%;
+    height: 100px;
+    margin: 400px auto;
+    background-color: brown;
+    padding-top: 50px;
+    
+}
+.buttons{
+    
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* .num{
+    text-align: center;
+    font-size: 50px;
+} */

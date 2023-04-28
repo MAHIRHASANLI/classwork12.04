@@ -1,0 +1,39 @@
+section{
+    width: 100%;
+    height:900px;
+position: relative;
+    figure{
+        margin: 0;
+        background-image: url("https://imgix.bustle.com/uploads/image/2019/2/20/2b149a21-3c67-47f8-9973-67e8916edd95-mater_soap_sea_bar_1024x.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg");
+   
+   width: 100%;
+   height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+      .hero{
+        text-align: center;
+    //     position: absolute;
+    // top: 20%;
+    // left:20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        & div:first-child>p{
+            font-size: 200px;
+            font-family: $my-font;
+        }
+        & div:last-child>p{
+            font-size: 50px;
+            font-family:$my-font;
+        }
+        
+     
+        .hero__btn{
+            @include bordered( $my-color,$my-white, 20px,);
+              text-decoration: none;
+            }
+      }
+    }
+}
